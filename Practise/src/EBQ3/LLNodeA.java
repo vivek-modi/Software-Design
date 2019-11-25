@@ -1,4 +1,4 @@
-package EQ3;
+package EBQ3;
 
 class LLNodeA {
 	private String name;

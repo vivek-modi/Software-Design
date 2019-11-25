@@ -1,4 +1,4 @@
-package EQ2;
+package EBQ2;
 
 import java.awt.*;
 import java.awt.event.*;

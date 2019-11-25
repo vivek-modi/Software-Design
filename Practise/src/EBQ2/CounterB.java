@@ -1,4 +1,4 @@
-package EQ2;
+package EBQ2;
 
 class CounterB {
 	protected int value;

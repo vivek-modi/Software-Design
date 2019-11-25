@@ -1,4 +1,4 @@
-package EQ1;
+package EBQ1;
 
 public class TestVillage {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package EQ2;
+package EBQ2;
 
 public class Counter2 extends CounterB {
 

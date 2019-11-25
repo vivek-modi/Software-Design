@@ -1,4 +1,4 @@
-package EQ2;
+package EBQ2;
 
 public class TestCounter32B {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package EQ3;
+package EBQ3;
 
 class LLinkedListA {
 	private LLNodeA head;

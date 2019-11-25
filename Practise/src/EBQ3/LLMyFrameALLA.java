@@ -1,4 +1,4 @@
-package EQ3;
+package EBQ3;
 
 import java.awt.*;
 import java.awt.event.*;
