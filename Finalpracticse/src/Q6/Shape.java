@@ -1,15 +1,11 @@
 package Q6;
 
-class Shape {
+abstract class Shape {
 	protected int width;
 
 	public Shape(int w) {
 		width = w;
 	}
 
-	public int calculateArea() {
-		return 0;
-	}
+	public abstract int calculateArea();
 }
-
-
