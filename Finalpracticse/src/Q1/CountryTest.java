@@ -21,27 +21,22 @@ public class CountryTest {
 			System.out.println("Enter new details");
 			System.out.println("Enter New Name: ");
 			c.setName(sc.next());
-			System.out.println("Enter New Population: ");  
+			System.out.println("Enter New Population: ");
 			c.setPopulation(sc.nextInt());
-			
+
 			System.out.println("Updated Country Details");
 			System.out.println("=======================");
 
-			System.out.println("Name:       "+c.getName());
-            System.out.println("Pop :       "+c.getPopulation());
-
+			System.out.println("Name:       " + c.getName());
+			System.out.println("Pop :       " + c.getPopulation());
 
 			System.out.println();
 
-			try {
 			ObjectOutputStream ob = new ObjectOutputStream(new FileOutputStream("yo.dat"));
 			ob.writeObject(c);
 			ob.close();
-			}catch (Exception ex) {
-				
-			}
+
 		} catch (Exception e) {
-			
 
 		}
 	}
