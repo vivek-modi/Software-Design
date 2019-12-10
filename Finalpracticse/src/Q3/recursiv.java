@@ -9,6 +9,8 @@ public class recursiv {
 			return 0;
 		else {
 			return 1 + countDigits(value / 10);
+
+			// return (value % 10 + countDigits(value / 10));
 		}
 	}
 
